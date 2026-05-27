@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片搜索-高清亚洲视频</title>
+    <meta name="description" content="搜索高清亚洲视频精选影片片单，快速进入影片详情与播放页面。">
+    <meta name="keywords" content="高清亚洲视频,精选影片片单,亚洲视频,高清播放,精选视频,视频片单,影片搜索">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+<header class="site-header" data-header>
+    <div class="container header-inner">
+        <a class="brand" href="./index.html" aria-label="高清亚洲视频">
+            <span class="brand-icon">▶</span>
+            <span class="brand-name">高清亚洲视频</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link " href="./index.html">首页</a>
+            <a class="nav-link " href="./categories.html">分类</a>
+            <a class="nav-link " href="./ranking.html">排行榜</a>
+            <a class="nav-link active" href="./search.html">搜索</a>
+            <a class="nav-link" href="./category-asian-selection.html">亚洲精选</a>
+            <a class="nav-link" href="./category-drama-stories.html">剧情故事</a>
+            <a class="nav-link" href="./category-comedy-romance.html">喜剧爱情</a>
+            <a class="nav-link" href="./category-action-adventure.html">动作冒险</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-search-form>
+            <span class="search-mark">⌕</span>
+            <input type="search" name="q" placeholder="搜索影片" autocomplete="off">
+        </form>
+        <button class="menu-toggle" type="button" aria-label="打开菜单" data-menu-toggle>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+        <form class="mobile-search" action="./search.html" method="get" data-search-form>
+            <input type="search" name="q" placeholder="搜索影片" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <nav class="mobile-nav" aria-label="移动导航">
+            <a class="mobile-link " href="./index.html">首页</a>
+            <a class="mobile-link " href="./categories.html">分类</a>
+            <a class="mobile-link " href="./ranking.html">排行榜</a>
+            <a class="mobile-link active" href="./search.html">搜索</a>
+            <a class="mobile-link" href="./category-asian-selection.html">亚洲精选</a>
+            <a class="mobile-link" href="./category-drama-stories.html">剧情故事</a>
+            <a class="mobile-link" href="./category-comedy-romance.html">喜剧爱情</a>
+            <a class="mobile-link" href="./category-action-adventure.html">动作冒险</a>
+            <a class="mobile-link" href="./category-mystery-crime.html">悬疑犯罪</a>
+            <a class="mobile-link" href="./category-scifi-fantasy.html">科幻奇幻</a>
+            <a class="mobile-link" href="./category-history-war.html">历史战争</a>
+            <a class="mobile-link" href="./category-classic-choice.html">经典佳片</a>
+        </nav>
+    </div>
+</header>
+<main>
+<section class="sub-hero search-sub-hero">
+    <div class="container">
+        <div class="breadcrumb"><a href="./index.html">首页</a><span>搜索</span></div>
+        <h1>影片搜索</h1>
+        <p>输入片名、地区、类型、年份、标签或关键词，快速找到对应影片详情。</p>
+        <form class="page-search" action="./search.html" method="get" data-search-form>
+            <input type="search" name="q" placeholder="搜索影片" data-search-page-input>
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+</section>
+<section class="section white-section">
+    <div class="container">
+        <div class="search-result-head">
+            <h2 data-search-title>精选影片</h2>
+            <p data-search-desc>可通过关键词查找影片标题、分类、地区、年份与标签。</p>
+        </div>
+        <div class="poster-grid all-grid" data-search-results></div>
+        <div class="empty-state" data-search-empty>没有匹配的影片</div>
+    </div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <section class="footer-about">
+            <a class="footer-brand" href="./index.html">
+                <span class="brand-icon">▶</span>
+                <span>高清亚洲视频</span>
+            </a>
+            <p>高清亚洲视频栏目整理亚洲地区视频内容，覆盖热门、经典与精选分类，方便查看多类型视频片单。</p>
+        </section>
+        <section>
+            <h2>快速入口</h2>
+            <ul>
+                <li><a href="./index.html">首页精选</a></li>
+                <li><a href="./categories.html">影片分类</a></li>
+                <li><a href="./ranking.html">热门排行</a></li>
+                <li><a href="./search.html">影片搜索</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>热门分类</h2>
+            <ul>
+                <li><a href="./category-asian-selection.html">亚洲精选</a></li>
+                <li><a href="./category-drama-stories.html">剧情故事</a></li>
+                <li><a href="./category-comedy-romance.html">喜剧爱情</a></li>
+                <li><a href="./category-action-adventure.html">动作冒险</a></li>
+                <li><a href="./category-mystery-crime.html">悬疑犯罪</a></li>
+                <li><a href="./category-scifi-fantasy.html">科幻奇幻</a></li>
+                <li><a href="./category-history-war.html">历史战争</a></li>
+                <li><a href="./category-classic-choice.html">经典佳片</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>精选关键词</h2>
+            <div class="footer-tags">
+                <a href="./search.html?q=%E9%AB%98%E6%B8%85">高清播放</a>
+                <a href="./search.html?q=%E4%BA%9A%E6%B4%B2">亚洲视频</a>
+                <a href="./search.html?q=%E7%B2%BE%E9%80%89">精选片单</a>
+                <a href="./search.html?q=%E5%89%A7%E6%83%85">剧情</a>
+            </div>
+        </section>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 高清亚洲视频. 精选影片片单与高清视频在线播放。</p>
+    </div>
+</footer>
+<script src="./assets/site.js" defer></script>
+<script src="./assets/search-data.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
